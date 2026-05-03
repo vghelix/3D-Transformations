@@ -1,4 +1,4 @@
-# # 3D Transform Suite - VS Code Setup Guide
+# 3D Transform Suite - VS Code Setup Guide
 
 ## Quick Start with Live Server
 
