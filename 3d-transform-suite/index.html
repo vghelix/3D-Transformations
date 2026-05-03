@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Transform Suite - Project Hub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 50%, #16213e 100%);
+            color: #f1f5f9;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #00d9ff 0%, #a855f7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            color: #94a3b8;
+            margin-bottom: 40px;
+        }
+
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            padding: 15px 40px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #00d9ff 0%, #a855f7 100%);
+            color: #0f0f1e;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0, 217, 255, 0.4);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: #f1f5f9;
+            border: 2px solid rgba(0, 217, 255, 0.3);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(0, 217, 255, 0.2);
+            border-color: #00d9ff;
+        }
+
+        .info-box {
+            background: rgba(0, 217, 255, 0.1);
+            border: 1px solid rgba(0, 217, 255, 0.3);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .info-box h3 {
+            color: #00d9ff;
+            margin-bottom: 10px;
+        }
+
+        .info-box ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .info-box li {
+            padding: 5px 0;
+            color: #94a3b8;
+        }
+
+        .info-box li:before {
+            content: "✓ ";
+            color: #00d9ff;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        .footer {
+            color: #94a3b8;
+            font-size: 0.9em;
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: #00d9ff;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 3D Transform Suite</h1>
+        <p class="subtitle">Professional 3D Object Manipulation & Transformation</p>
+
+        <div class="info-box">
+            <h3>Features</h3>
+            <ul>
+                <li>8 Different 3D Objects</li>
+                <li>Complete Transformation Controls</li>
+                <li>Real-time 3D Rendering</li>
+                <li>Interactive Canvas Controls</li>
+                <li>Professional UI Design</li>
+            </ul>
+        </div>
+
+        <div class="button-group">
+            <a href="3d-transform-suite.html" class="btn btn-primary">↗ Launch Application</a>
+            <a href="README.md" class="btn btn-secondary">📖 View Documentation</a>
+        </div>
+
+        <div class="footer">
+            <p>Built with Three.js • WebGL 3D Graphics</p>
+            <p>Open Source • Ready to Deploy</p>
+        </div>
+    </div>
+</body>
+</html>
